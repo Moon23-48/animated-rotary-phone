@@ -1,36 +1,38 @@
 # animated-rotary-phone
-เครื่องมือเทรซรูปบนมือถือ เปิดกล้องแล้ววางรูปโปร่งใสทับกระดาษ ไม่มีโฆษณา ไม่เก็บข้อมูล ใช้ออฟไลน์ได้ 
-# เทรซรูป
+Phone-based image tracing tool. Overlay a transparent image on your camera view to trace onto paper. No ads, no data collection, works offline.
+# Trace
 
-เครื่องมือเทรซรูปบนมือถือ เปิดกล้องหลังแล้ววางรูปโปร่งใสทับบนภาพกระดาษ ใช้ดูเส้นแล้ววาดตามได้ ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งแอปจากสโตร์ ไม่มีโฆษณา
+A mobile image tracing tool that runs in the browser. It opens your rear camera and overlays a semi-transparent image on top of the live view, so you can trace it onto paper. No ads, no accounts, nothing to install from an app store.
 
-## ใช้งาน
+> The interface is currently in Thai.
 
-1. เปิดหน้าเว็บ แล้วกด "เปิดกล้อง" และอนุญาตการใช้กล้อง
-2. กด "เลือกรูป" เลือกรูปจากเครื่อง
-3. ลากนิ้วเดียวเพื่อเลื่อนรูป ใช้สองนิ้วย่อ ขยาย และหมุน
-4. ปรับแถบเพื่อให้รูปจางหรือชัดตามต้องการ
-5. กด "ล็อกรูป" เมื่อวางพอดีแล้ว เพื่อไม่ให้รูปขยับตอนวาด
+## How to use
 
-ควรตั้งมือถือบนขาตั้งหรือวางพิงของให้อยู่เหนือกระดาษ เพราะรูปจะไม่ตามกระดาษถ้าเครื่องขยับ
+1. Open the page, tap the camera button, and allow camera access.
+2. Tap the image button and pick a picture from your device.
+3. Drag with one finger to move the image. Pinch with two fingers to resize and rotate it.
+4. Use the slider to make the image fainter or stronger.
+5. Tap the lock button once the image is lined up, so it stays put while you draw.
 
-## ติดตั้งเป็นแอป
+Place your phone on a stand or prop it up above the paper. The image does not follow the paper if the phone moves.
 
-เปิดลิงก์ใน Chrome บนมือถือ แล้วเลือก ⋮ → "เพิ่มลงในหน้าจอหลัก" หลังเปิดครั้งแรกจะใช้ออฟไลน์ได้
+## Install as an app
 
-## ความเป็นส่วนตัว
+Open the page in Chrome on your phone, then choose ⋮ → "Add to Home screen". After the first load it works offline.
 
-รูปและภาพจากกล้องประมวลผลอยู่ในเครื่องของคุณเท่านั้น ไม่มีการอัปโหลดหรือเก็บข้อมูลใดๆ ไปยังเซิร์ฟเวอร์
+## Privacy
 
-## ลิขสิทธิ์
+Images and camera frames are processed entirely on your device. Nothing is uploaded or stored on any server.
 
-เครื่องมือนี้ไม่มีรูปประกอบมาให้ รูปที่นำมาเทรซต้องเป็นของคุณหรือได้รับอนุญาตให้ใช้ ผู้ใช้เป็นผู้รับผิดชอบเรื่องลิขสิทธิ์ของรูปที่นำมาใช้เอง
+## Copyright
 
-## ไฟล์ในโปรเจกต์
+This tool does not include any images. The images you trace must be your own or used with permission. You are responsible for the copyright status of any image you use.
 
-- `index.html` หน้าเว็บทั้งหมด (HTML, CSS, JavaScript ในไฟล์เดียว)
-- `manifest.webmanifest` และ `sw.js` สำหรับติดตั้งเป็นแอปและใช้ออฟไลน์
-- `icon-192.png`, `icon-512.png` ไอคอน
+## Files
+
+- `index.html`: the whole app (HTML, CSS and JavaScript in one file)
+- `manifest.webmanifest` and `sw.js`: app install and offline support
+- `icon-192.png`, `icon-512.png`: icons
 
 ## License
 
