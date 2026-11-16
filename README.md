@@ -34,6 +34,3 @@ This tool does not include any images. The images you trace must be your own or 
 - `manifest.webmanifest` and `sw.js`: app install and offline support
 - `icon-192.png`, `icon-512.png`: icons
 
-## License
-
-MIT
